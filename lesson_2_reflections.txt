@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+An empty repository with no commits is created in the directory you run git init.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area only contains files you have chosen to commit. For a myriad of reasons you may not wish to add every file in a working directory to a commit.
