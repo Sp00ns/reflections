@@ -3,3 +3,20 @@ An empty repository with no commits is created in the directory you run git init
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area only contains files you have chosen to commit. For a myriad of reasons you may not wish to add every file in a working directory to a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By not adding every you modify at one go and instead using several commits for several changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Testing out changes you are unsure about or new ideas. This way you would not break anything in the main branch.
+
+How do the diagrams help you visualize the branch structure?
+You can see the parents of commits. you can determine what commits are unreachable from the different branches. etc.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All changes are merged onto one branch. ie. with master and coins, all differences in coins are now merged onto the master branch
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+For additional or removed lines automatic merging works quite well. If lines are modified in both commits from the master you are trying to merge there will
+be a conflict and you will need to do a manual edit
+as for manual editing, sometimes this is impractical if there is a significant amount of changes to be merged.
